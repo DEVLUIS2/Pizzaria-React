@@ -1,0 +1,43 @@
+#root{
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+img{
+    width: 60px;
+    border-radius: 10px;
+}
+
+header{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    /* border: 2px solid rgb(22, 21, 8); */
+    border-radius: 10px;
+    background-color: rgb(235, 43, 18);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Nav{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Nav-1{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
